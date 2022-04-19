@@ -36,7 +36,7 @@ class EquipmentData:
         return RuntimeError
 
     def get_armor(self, armor_name: str) -> Armor:
-        for armor in self.armorss:
+        for armor in self.armors:
             if armor.name == armor_name:
                 return armor
         return RuntimeError

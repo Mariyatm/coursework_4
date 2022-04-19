@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+ api:
+    image: mariyatm/test:version1
+    ports:
+      - 8090:80
